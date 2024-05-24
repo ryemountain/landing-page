@@ -25,12 +25,12 @@ li {
     background-color: #1f2937;
 }
 
-
-
 .hero-text-container > h1, .header-container > div > h2, button
 {
     color: #f9faf8;
 }
+
+/*header*/
 
 .header-container {
     display: flex;
@@ -48,16 +48,19 @@ li {
     align-content: center;
 }
 
+/* hero-container section */
+
 .hero-container {
     display:flex;
     justify-content: center;
     padding: 75px;
-    gap: 30px;
+    gap: 80px;
 }
 
 .hero-container > * > button {
     padding: 6px 30px;
     background-color: #3882f6;
+    margin-top: 4px;
 }
 
 .hero-text-container {
@@ -86,6 +89,7 @@ li {
     display:flex;
     justify-content: center;
     gap: 40px;
+    padding-bottom: 60px;
 }
 
 .info-img-container {
@@ -109,4 +113,85 @@ li {
     border-radius: 12px;
     width:100px;
     height:100px;
+}
+
+
+/* Quote section */
+.quote-section {
+    background-color:#e5e7eb;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    max-width: 600px;
+    padding: 60px 0px;
+    display:flex;
+    flex-direction: column;
+}
+
+.big-quote {
+    font-style:italic;
+    font-weight:lighter;
+    font-size: 24px;
+    color:#1f2937;
+}
+
+.thor-quote {
+    justify-self:flex-end;
+    align-self: flex-end;
+}
+
+/*call to action*/
+
+.callsection-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 40px;
+}
+
+.calltoaction-container {
+    background-color: #3882f6;
+    display:flex;
+    color:#e5e7eb;
+    padding: 40px 100px;
+    border-radius: 10px;
+}
+
+.calltoaction-button {
+    background: none;
+    display:flex;
+    align-items:flex-end;
+}
+
+.calltoaction-button > button {
+    background: none;
+    border: 3px solid #e5e7eb;
+    width: 110px;
+    height: 30px;
+    padding: 0px;
+}
+
+.calltoaction-text {
+    margin-right: 40px;
+}
+
+
+.calltoaction-text> h4, p {
+    margin: 0px;
+}
+
+/*footer*/
+
+.footer-container
+{
+    display:flex;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 20px;
+    color:#f9faf8;
 }
